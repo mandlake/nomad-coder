@@ -1,0 +1,17 @@
+body {
+  background-color: #333;
+  color: white;
+}
+
+header {
+  background-color: #222;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  color: yellowgreen;
+  font-weight: 300;
+  font-size: 50px;
+  font-style: italic;
+}
