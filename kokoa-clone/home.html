@@ -12,24 +12,43 @@
     <meta name="description" content="My first website" />
   </head>
   <body>
-    <form>
-      <label for="profile">Profile Photo</label>
-      <input id="profile" type="file" accept="image/*" />
-      <label for="first-name">First Name</label>
-      <input id="first-name" required placeholder="Name" type="text" />
-      <label for="last-name">Last Name</label>
-      <input id="last-name" required placeholder="Last Name" type="text" />
-      <label for="username">Username</label>
-      <input id="username" required placeholder="Username" type="text" />
-      <label for="password">Password</label>
-      <input
-        id="password"
-        required
-        placeholder="Password"
-        minlength="10"
-        type="password"
-      />
-      <input type="submit" value="Create Account" />
-    </form>
+    <head>
+      <h1>The Nico Times</h1>
+    </head>
+    <main>
+      <form>
+        <div>
+          <label for="profile">Profile Photo</label>
+          <input id="profile" type="file" accept="image/*" />
+        </div>
+        <div>
+          <label for="first-name">First Name</label>
+          <input id="first-name" required placeholder="Name" type="text" />
+        </div>
+        <div>
+          <label for="last-name">Last Name</label>
+          <input id="last-name" required placeholder="Last Name" type="text" />
+        </div>
+        <div>
+          <label for="username">Username</label>
+          <input id="username" required placeholder="Username" type="text" />
+        </div>
+        <div>
+          <label for="password">Password</label>
+          <input
+            id="password"
+            required
+            placeholder="Password"
+            minlength="10"
+            type="password"
+          />
+        </div>
+
+        <input type="submit" value="Create Account" />
+      </form>
+    </main>
+    <footer>
+      <p>&copy; 2021 The Nico Times</p>
+    </footer>
   </body>
 </html>
