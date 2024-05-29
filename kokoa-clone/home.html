@@ -12,11 +12,13 @@
     <meta name="description" content="My first website" />
   </head>
   <body>
-    <h1>Hello</h1>
-    <a href="http://google.com">Google</a>
-    <img
-      src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"
-      alt="Google Logo"
-    />
+    <form>
+      <input type="file" accept="image/*" />
+      <input required placeholder="Name" type="text" />
+      <input required placeholder="Last Name" type="text" />
+      <input required placeholder="Username" type="text" />
+      <input required placeholder="Password" minlength="10" type="password" />
+      <input type="submit" value="Create Account" />
+    </form>
   </body>
 </html>
