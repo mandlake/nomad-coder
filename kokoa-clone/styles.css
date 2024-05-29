@@ -1,7 +1,18 @@
+body {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px;
+  height: 100vh;
+}
+
 .btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   color: white;
-  padding: 20px;
-  margin: 30px;
+  width: 150px;
+  height: 150px;
 }
 
 .teal {
