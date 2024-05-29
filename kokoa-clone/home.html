@@ -13,11 +13,22 @@
   </head>
   <body>
     <form>
-      <input type="file" accept="image/*" />
-      <input required placeholder="Name" type="text" />
-      <input required placeholder="Last Name" type="text" />
-      <input required placeholder="Username" type="text" />
-      <input required placeholder="Password" minlength="10" type="password" />
+      <label for="profile">Profile Photo</label>
+      <input id="profile" type="file" accept="image/*" />
+      <label for="first-name">First Name</label>
+      <input id="first-name" required placeholder="Name" type="text" />
+      <label for="last-name">Last Name</label>
+      <input id="last-name" required placeholder="Last Name" type="text" />
+      <label for="username">Username</label>
+      <input id="username" required placeholder="Username" type="text" />
+      <label for="password">Password</label>
+      <input
+        id="password"
+        required
+        placeholder="Password"
+        minlength="10"
+        type="password"
+      />
       <input type="submit" value="Create Account" />
     </form>
   </body>
