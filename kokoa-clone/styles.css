@@ -1,21 +1,7 @@
 body {
-  margin: 20px;
-  height: 1000vh;
-}
-
-.btn {
-  color: white;
-  width: 300px;
-  height: 300px;
-}
-
-.teal {
-  position: fixed;
-  left: 200px;
-  background-color: teal;
-}
-
-.tomato {
-  background-color: tomato;
-  border-radius: 5px;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
