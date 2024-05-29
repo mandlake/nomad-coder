@@ -5,3 +5,30 @@ body {
   align-items: center;
   height: 100vh;
 }
+
+div {
+  width: 200px;
+  height: 200px;
+  background-color: teal;
+}
+
+@media screen and (max-width: 1200px) {
+  div {
+    border-radius: 20%;
+    background-color: lightblue;
+  }
+}
+
+@media screen and (max-width: 1000px) and (orientation: landscape) {
+  div {
+    border-radius: 30%;
+    background-color: lightcoral;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  div {
+    border-radius: 40%;
+    background-color: mintcream;
+  }
+}
