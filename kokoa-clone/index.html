@@ -5,8 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>KokoaTalk</title>
     <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"
     />
     <link
       rel="stylesheet"
@@ -18,15 +18,15 @@
     <div class="status-bar">
       <div class="status-bar__column">
         <span>No Service</span>
-        <span class="material-symbols-outlined"> wifi </span>
+        <span class="material-icons font-weight-normal"> wifi </span>
       </div>
       <div class="status-bar__column">
         <span>18:43</span>
       </div>
       <div class="status-bar__column">
         <span>110%</span>
-        <span class="material-symbols-outlined"> battery_horiz_075 </span>
-        <span class="material-symbols-outlined"> bolt </span>
+        <span class="material-symbols-outlined .fa-lg"> battery_full_alt </span>
+        <span class="material-icons font-weight-normal">bolt</span>
       </div>
     </div>
     <header class="welcome-header">
@@ -36,9 +36,9 @@
         <br />Log in to chat with your email or phone number
       </p>
     </header>
-    <form id="login-form">
-      <input type="text" placeholder="Email or phone number" />
-      <input type="password" placeholder="Password" />
+    <form action="friends.html" method="get" id="login-form">
+      <input name="username" type="text" placeholder="Email or phone number" />
+      <input name="password" type="password" placeholder="Password" />
       <input type="submit" value="Log in" />
       <a href="#">Find Kakao Account or Password</a>
     </form>
