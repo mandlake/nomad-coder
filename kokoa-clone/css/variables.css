@@ -1,5 +1,7 @@
 :root {
   --yellow: #fae100;
   --gray: #f9f9fa;
+  --light-gray: #fafafa;
   --black: #2e363e;
+  --horizontal-space: 25px;
 }

@@ -1,4 +1,5 @@
 # Kokoa Clone for Sample
 
 This is Sample of other Projects
-size = 750 \* 1340
+
+size = 600 \* 1100
